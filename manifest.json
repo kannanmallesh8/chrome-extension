@@ -1,0 +1,32 @@
+{
+  "name": "block google & fb",
+  "description": " block google website",
+  "version": "2.0",
+  "icons":{
+    "128":"img0.png",
+    "48":"img1.png",
+    "32":"images2.png"
+  },
+  "permissions": [
+     "webRequestBlocking",
+     "webRequest",
+     "activeTab",
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+  ],
+  "browser_action": {
+
+    "default_icon": {
+      "128":"img0.png",
+      "48":"img1.png",
+      "32":"images2.png"
+    }
+},
+  "background" : {
+    "scripts":  [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2
+}
